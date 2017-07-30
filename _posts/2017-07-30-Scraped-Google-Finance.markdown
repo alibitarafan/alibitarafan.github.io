@@ -4,7 +4,7 @@ title:  "Scraping with python"
 date:   2017-07-30 18:30:00 +0300
 categories: web scraping, python
 ---
-In this post I want show how to load a website using ["requests"][requests-docs] library and parse the loaded page through ["BeautifulSoup"][BeautifulSoup-docs] then I will find an element from the webpage in order to extract some specific information.
+In this post I want to show how to load a website using ["requests"][requests-docs] library and parse the loaded page through ["BeautifulSoup"][BeautifulSoup-docs] then I will find an element from the webpage in order to extract some specific information.
 
 these are the libraries I imported in my project file.
 {% highlight python %}
@@ -12,7 +12,7 @@ import requests
 from bs4 import BeautifulSoup
 {% endhighlight %}
 
-url is a string variable which holds the address of the webpage. response, stores what the server sends back after we use the function get from requests library. With looking at the status_code associated my query I can find out whether or not my query has been successful.
+url is a string variable which holds the address of the webpage. response, stores what the server sends back after we use the function get from requests library. With looking at the status_code representing the state of my query and web server's response I can find out whether or not a reliable connection has been established.
 {% highlight python %}
 url = "https://www.google.com/finance"
 response = requests.get(url)
