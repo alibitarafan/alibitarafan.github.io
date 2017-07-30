@@ -20,11 +20,19 @@ if not response.status_code == 200:
  print("Website is unreachable")
 {% endhighlight %}
 
-Now BeautifulSoup comes into play; what response_page stores is a treeview of the website. Arguments given to the BeautifulSoup constructor are content of the webpage and an optional formatting keyword which in here is 'lxml'.
+Now BeautifulSoup comes into play. What response_page stores is a tree structure of the website's elements. Arguments given to the BeautifulSoup constructor are contents which function get received and one optional formatting keyword which in here is 'lxml'.
 {% highlight python %}
 response_page = BeautifulSoup(response.content, 'lxml')
+{% endhighlight %}
+
+BeautifulSoup offers many functionalities, searching and navigating can be done using provided functions which can be viewed in [here][navigating-tree], however I will use the [find][find-method] method for this project.
+the right side of this assignment operation will search for a css class called "id-secperf sfe-section-major" in a html element tagged div from the BeautifulSoup tree in response_page.
+{% highlight python %}
+sectors_table = response_page.find("div", class_ = "id-secperf sfe-section-major")
 {% endhighlight %}
 
 
 [requests-docs]: https://pypi.python.org/pypi/requests
 [BeautifulSoup-docs]: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+[navigating-tree]: https://www.crummy.com/software/BeautifulSoup/bs4/doc/#navigating-the-tree
+[find-method]: https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find
