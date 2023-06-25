@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Working with data 
-email: ali.bitarafan@cou.fi
+email: ali.bitarafan@gmail.com
 description: > # This blog is for showcasing my progress to become a data analyst.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
