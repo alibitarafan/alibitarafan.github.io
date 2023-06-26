@@ -50,8 +50,14 @@ sectors_table = response_page.find("div", class_="id-secperf sfe-section-major")
 
 In this post, we explored how to load a webpage using the "requests" library, parse the HTML structure with "BeautifulSoup," and extract specific information from the webpage. By leveraging these powerful Python libraries, we can automate web scraping tasks and retrieve valuable data from websites. The combination of "requests" and "BeautifulSoup" provides a flexible and efficient solution for web scraping projects, opening up endless possibilities for data extraction and analysis.
 
+Thank you for taking the time to read this post! If you have any questions or would like to discuss data engineering, web scraping, or any related topics further, feel free to reach out to me. You can contact me at my ["linkedin page"](https://www.linkedin.com/in/ali-bitarafan/). I appreciate your support and engagement with this content.
+
+Stay tuned for more informative posts and exciting discussions. Happy data engineering!
+
+
+
 References:
-- [requests library documentation](https://pypi.python.org/pypi/requests)
+- ["requests" library documentation](https://pypi.python.org/pypi/requests)
 - [BeautifulSoup library documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 - [Navigating the BeautifulSoup tree](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#navigating-the-tree)
 - [BeautifulSoup find method](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find)
