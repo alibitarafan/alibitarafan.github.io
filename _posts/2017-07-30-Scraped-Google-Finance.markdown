@@ -1,38 +1,57 @@
 ---
 layout: post
-title:  "Scraping with python"
+title:  "Web Scraping with Python: Loading and Parsing Webpages using Requests and BeautifulSoup"
 date:   2017-07-30 18:30:00 +0300
 categories: web scraping, python
 ---
-In this post I want to show how to load a website using ["requests"][requests-docs] library and parse the loaded page through ["BeautifulSoup"][BeautifulSoup-docs] then I will find an element from the webpage in order to extract some specific information.
 
-these are the libraries I imported in my project file.
-{% highlight python %}
+
+## Introduction
+
+In this post, we will explore how to load a webpage using the "requests" library in Python, parse the loaded page using "BeautifulSoup," and extract specific information from it. By leveraging these libraries, we can automate the retrieval of data from websites, making it easier to extract relevant information for various applications.
+
+### Importing Required Libraries
+
+To begin, we import the necessary libraries, "requests" and "BeautifulSoup," into our project file. These libraries provide powerful functionalities for fetching web content and parsing HTML structures.
+
+```python
 import requests
 from bs4 import BeautifulSoup
-{% endhighlight %}
+```
 
-url is a string variable which holds the address of the webpage. response, stores what the server sends back after we use the function get from requests library. With looking at the status_code representing the state of my query and web server's response I can find out whether or not a reliable connection has been established.
-{% highlight python %}
+### Loading a Webpage and Checking Connectivity
+
+Next, we define a string variable called `url` to hold the address of the webpage we want to access. Using the `get` function from the "requests" library, we send a request to the server to retrieve the webpage's content. We then check the `status_code` attribute of the response object to verify if the connection was successful.
+
+```python
 url = "https://www.google.com/finance"
 response = requests.get(url)
 if not response.status_code == 200:
- print("Website is unreachable")
-{% endhighlight %}
+    print("Website is unreachable")
+```
 
-Now BeautifulSoup comes into play. What response_page stores is a tree structure of the website's elements. Arguments given to the BeautifulSoup constructor are contents which function get received and one optional formatting keyword which in here is 'lxml'.
-{% highlight python %}
+### Parsing the Webpage with BeautifulSoup
+
+Once we have obtained the webpage's content, we can utilize the "BeautifulSoup" library to parse the HTML structure. By passing the response's content to the BeautifulSoup constructor, we create a tree structure of the webpage's elements. In this example, we use the 'lxml' parser for processing the HTML.
+
+```python
 response_page = BeautifulSoup(response.content, 'lxml')
-{% endhighlight %}
+```
 
-BeautifulSoup offers many functionalities, searching and navigating can be done using provided functions which can be viewed in [here][navigating-tree], however I will use the [find][find-method] method for this project.
-the right side of this assignment operation will search for a css class called "id-secperf sfe-section-major" in a html element tagged div from the BeautifulSoup tree in response_page.
-{% highlight python %}
-sectors_table = response_page.find("div", class_ = "id-secperf sfe-section-major")
-{% endhighlight %}
+### Searching for Specific Elements
 
+BeautifulSoup provides various functions for searching and navigating the HTML tree structure. In this project, we will utilize the `find` method. This method allows us to search for elements based on tag names, attributes, or CSS classes. In the following example, we search for a div element with the CSS class "id-secperf sfe-section-major" within the BeautifulSoup tree stored in `response_page`.
 
-[requests-docs]: https://pypi.python.org/pypi/requests
-[BeautifulSoup-docs]: https://www.crummy.com/software/BeautifulSoup/bs4/doc/
-[navigating-tree]: https://www.crummy.com/software/BeautifulSoup/bs4/doc/#navigating-the-tree
-[find-method]: https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find
+```python
+sectors_table = response_page.find("div", class_="id-secperf sfe-section-major")
+```
+
+## Conclusion
+
+In this post, we explored how to load a webpage using the "requests" library, parse the HTML structure with "BeautifulSoup," and extract specific information from the webpage. By leveraging these powerful Python libraries, we can automate web scraping tasks and retrieve valuable data from websites. The combination of "requests" and "BeautifulSoup" provides a flexible and efficient solution for web scraping projects, opening up endless possibilities for data extraction and analysis.
+
+References:
+- [requests library documentation](https://pypi.python.org/pypi/requests)
+- [BeautifulSoup library documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- [Navigating the BeautifulSoup tree](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#navigating-the-tree)
+- [BeautifulSoup find method](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#find)
