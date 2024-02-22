@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Working with data 
+title: Ali Bitarafan 
 email: ali.bitarafan@gmail.com
-description: > # This blog is for showcasing my progress to become a data analyst.
-baseurl: "" # the subpath of your site, e.g. /blog
+description: > I am a Data architect with an eye for details. I try to passionately solve problems and create value for the business. 
+baseurl: "/about" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  alibitarafan
 
