@@ -1,46 +1,60 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: alibitarafan/alibitarafa.github.io
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Ali Bitarafan
+title: Data Architect
+email: ali.bitarafan@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+# phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+# website: Your website (eg. https://google.com)(optional)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+# twitter_username: jekyllrb
+# github_username:  jekyll
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+  - title: Data Bricks Lakehouse fundamentals
+    url: https://credentials.databricks.com/509bb8d3-46f5-41b1-93b6-3de27b59e65a
+    image: /images/DB-lakehouse-fundamentals.png
+  - title: Data Bricks Generative AI fundamentals
+    url: https://credentials.databricks.com/1e574d0d-316b-4758-b07b-cf307336c474
+    image: /images/DB-generative-ai.png
+  - title: Azure Data Engineer Associate
+    url: https://learn.microsoft.com/en-us/users/alibitarafan-22/credentials/e048254457227f56
+    image: /images/microsoft-certified-associate-badge.svg
+  - title: AWS Certified Solutions Architect - associate
+    url: https://cp.certmetrics.com/amazon/en/public/verify/credential/9BCLZX7KW2RE1NKH
+    image: /images/AWS-Solutions-Architect-Associate_badge.png
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
+
+
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -50,66 +64,97 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/self-portrait.JPG
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+    As a lifelong learner, I am passionate about data and technology. I have a strong background in data engineering and data architecture. I have experience in developing and implementing data warehouse solutions, data pipelines, and data governance. I am a team player and I am always eager to learn new technologies and methodologies. I am also a good communicator and I have experience in working with business stakeholders to understand their requirements and translate them into technical solutions. 
+    
+#  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+#
+#  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#    - Lists
+#    - Tables
+# - <a href="google.com">Links</a>
+# - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+    - layout: left
+      border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                    # other value (or no value) means no border will be displayed
+      title: Tilastokeskus
+      link: https://www.tilastokeskus.fi
+      link_text: Tilastokeskus
+      quote: >
+        Optimising and modernising the data warehouse and data pipelines
+      description: | # this will include new lines to allow paragraphs
+        While keeping the legacy data warehouse running, I developed and implemented a modern data warehouse in Microsoft SQL Server. I also improved existing Data Vault models and developed data pipelines to extract, transform and load data from various sources into the new data warehouse.  
+      
+    - layout: left
+      border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                    # other value (or no value) means no border will be displayed
+      title: Metsä Board Analytics
+      link: https://www.metsaboard.com
+      link_text: Metsä Board
+      quote: >
+        Optimizing the manufacturing reporting process
+      description: | # this will include new lines to allow paragraphs
+        In this project I developed and collaboratively designed data vault model of the manufacturing process to optimize the reporting process. Furthermore I developed data pipelines to extract, transform and load data from legacy data warehouse into Azure SQL Server while taking advantage of Cloud-based Modern dataOps mechanisms. 
+    - layout: left
+      border: weak
+      title: Outokumpu Data Governance
+      link: https://www.outokumpu.com
+      link_text: OutoKumpu
+      quote: >
+        Data catalog and data governance of business analytics and industrial data
+      description: | # this will include new lines to allow paragraphs
+        Communicated with business stakeholders to understand the data governance requirements. Implemented Microsoft Purview to catalog the data sources and data assets of the company. While implementing a wide range of cataloging and data governance features, I also maintained security requirements and data privacy regulations. 
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: Lease Deal it
+        sub_title: Senior Consultant
+        caption: December 2023 - present
+        link: https://www.leasedealit.fi
         quote: >
-          Short description of the company (optional)
+          Lease deal it is a house of experts in the field of Information technology and business intelligence.
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          As a senior consultant, I have been responsible for developing and implementing data warehouse solutions. 
+      - layout: right
+        title: Solita Oy
+        sub_title: Data Engineer
+        caption: April 2022 - December 2023
+        link: https://www.solita.fi
+        quote: >
+          Lease deal it is a house of experts in the field of Information technology and business intelligence.
+        description: | # this will include new lines to allow paragraphs
+          As a senior consultant, I have been responsible for developing and implementing data warehouse solutions.       
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: ABO Akademi
+        sub_title: Master of Computer Science
+        caption: 2024
         quote: >
-          Short institution or course description (optional)
+          
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+        
+      - title: Centria University of Applied Sciences
+        sub_title: Bachelor of Information Technology
+        caption: 2019
+        quote: >
+          
+        description:
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
