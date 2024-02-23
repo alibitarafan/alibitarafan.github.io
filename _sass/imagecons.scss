@@ -1,0 +1,21 @@
+// create a class for imagecons that will be used to display the image buttons on the page
+.imagecons {
+    display: inline-block; // Add display property with value inline-block
+    vertical-align: middle; // Add vertical-align property with value middle
+}
+
+//     display: inline; // Change to "display: inline;"
+//     width: 2.75rem;
+//     height: 2.75rem;
+//     line-height: 2.8rem;
+//     text-align: center;
+//     border: 0;
+//     box-shadow: none;
+//     padding: 0;
+//     border-radius: 100%;
+//     color: #aaa;
+//     -moz-transition: background-color 0.25s ease-in-out;
+//     -webkit-transition: background-color 0.25s ease-in-out;
+//     -ms-transition: background-color 0.25s ease-in-out;
+//     transition: background-color 0.25s ease-in-out;
+// }
