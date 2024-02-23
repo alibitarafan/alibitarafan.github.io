@@ -35,6 +35,9 @@ linkedin_username: ali-bitarafan
 
 # Additional icon links
 additional_links:
+  - title: Snow Pro - Core
+    url: https://achieve.snowflake.com/ef5ec5c1-5437-4cba-ab60-aaa34e305c96
+    image: /images/snowpro-core.png
   - title: Data Bricks Lakehouse fundamentals
     url: https://credentials.databricks.com/509bb8d3-46f5-41b1-93b6-3de27b59e65a
     image: /images/DB-lakehouse-fundamentals.png
