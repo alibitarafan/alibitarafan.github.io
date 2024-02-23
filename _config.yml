@@ -118,7 +118,7 @@ content:
         quote: >
           Lease deal it is a house of experts in the field of Information technology and business intelligence.
         description: | # this will include new lines to allow paragraphs
-          As a senior consultant, I have been responsible for developing and implementing data warehouse solutions. 
+          As a senior consultant, Iam responsible for communicating, understanding client needs and implementing data warehouse solutions. 
       - layout: right
         title: Solita Oy
         sub_title: Data Engineer
@@ -127,7 +127,7 @@ content:
         quote: >
           IT consulting company with a strong focus on data and analytics.
         description: | # this will include new lines to allow paragraphs
-          As a senior consultant, I have been responsible for developing and implementing data warehouse solutions.       
+          As a data engineer, I have been responsible for developing and implementing data pipelines as well as data governance solutions.       
   - title: Education
     layout: list
     content:
