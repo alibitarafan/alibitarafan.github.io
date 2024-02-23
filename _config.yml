@@ -95,18 +95,14 @@ content:
     - layout: left
       border: weak  # Value of `weak` will display a weak border below this item. # Any 
                     # other value (or no value) means no border will be displayed
-      title: Metsä Board Analytics
-      link: https://www.metsaboard.com
-      link_text: Metsä Board
+      title: Large forestery products manufacturer
       quote: >
         Optimizing the manufacturing reporting process
       description: | # this will include new lines to allow paragraphs
         In this project I developed and collaboratively designed data vault model of the manufacturing process to optimize the reporting process. Furthermore I developed data pipelines to extract, transform and load data from legacy data warehouse into Azure SQL Server while taking advantage of Cloud-based Modern dataOps mechanisms. 
     - layout: left
       border: weak
-      title: Outokumpu Data Governance
-      link: https://www.outokumpu.com
-      link_text: OutoKumpu
+      title: Large steel manufacturer
       quote: >
         Data catalog and data governance of business analytics and industrial data
       description: | # this will include new lines to allow paragraphs
@@ -129,7 +125,7 @@ content:
         caption: April 2022 - December 2023
         link: https://www.solita.fi
         quote: >
-          Lease deal it is a house of experts in the field of Information technology and business intelligence.
+          IT consulting company with a strong focus on data and analytics.
         description: | # this will include new lines to allow paragraphs
           As a senior consultant, I have been responsible for developing and implementing data warehouse solutions.       
   - title: Education
@@ -140,15 +136,16 @@ content:
         sub_title: Master of Computer Science
         caption: 2024
         quote: >
-          
+          Data science and machine learning
         description: | # this will include new lines to allow paragraphs
         
       - title: Centria University of Applied Sciences
         sub_title: Bachelor of Information Technology
         caption: 2019
         quote: >
-          
+          Software development
         description:
+  
   # - title: A Little More About Me
   #   layout: text
   #   content: | # this will include new lines to allow paragraphs
