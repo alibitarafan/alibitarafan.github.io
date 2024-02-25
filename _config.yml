@@ -38,12 +38,12 @@ additional_links:
   - title: Solutions Architect Essentials 
     url: https://www.credential.net/d3129814-e75f-4da2-8f4b-3b832f80d43b
     image: /images/DB-SAE.png
-  - title: Snow Pro - Core
-    url: https://achieve.snowflake.com/ef5ec5c1-5437-4cba-ab60-aaa34e305c96
-    image: /images/snowpro-core.png
   - title: Data Bricks Lakehouse fundamentals
     url: https://credentials.databricks.com/509bb8d3-46f5-41b1-93b6-3de27b59e65a
     image: /images/DB-lakehouse-fundamentals.png
+  - title: Snow Pro - Core
+    url: https://achieve.snowflake.com/ef5ec5c1-5437-4cba-ab60-aaa34e305c96
+    image: /images/snowpro-core.png
   - title: Data Bricks Generative AI fundamentals
     url: https://credentials.databricks.com/1e574d0d-316b-4758-b07b-cf307336c474
     image: /images/DB-generative-ai.png
