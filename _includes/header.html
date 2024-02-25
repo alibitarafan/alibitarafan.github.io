@@ -4,6 +4,15 @@
       <h1>{{ site.name | escape }}</h1>
       <h2>{{ site.title | escape }}</h2>
     </div>
+    <div class="additional-links">
+      {%- for link in site.additional_links -%}
+      <a href="{{ link.url }}" class="button button--sacnite button--round-l">
+        <i class="{{ link.icon }}" title="{{ link.title | escape }}">
+          <img src="{{ link.image }}" class="icon" alt="{{ link.title | escape }}" title="{{ link.title | escape }}">
+        </i>
+      </a>
+      {%- endfor -%}
+    </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
       <ul class="icons no-print">
         {%- if site.dribbble_username -%}
@@ -111,16 +120,6 @@
           </a>
         </li>
         {%- endif -%}
-        {% for link in site.additional_links %}
-        <li>
-          <a href="{{ link.url }}" class="button button--sacnite button--round-1">
-            <i class="{{ link.icon }}" title="{{ link.title | escape }}">
-              <img src="{{ link.image }}" class="button__image" alt="{{ link.title | escape }}"
-                title="{{ link.title | escape }}">
-            </i>
-          </a>
-        </li>
-        {% endfor %}
       </ul>
 
       {%- if site.email -%}
@@ -140,5 +139,6 @@
       </p>
       {%- endif -%}
     </div>
+
   </div>
 </div>

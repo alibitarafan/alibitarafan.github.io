@@ -72,8 +72,16 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/self-portrait.JPG
 about_content: | # this will include new lines to allow paragraphs
-    As a lifelong learner, I am passionate about data and technology. I have a strong background in data engineering and data architecture. I have experience in developing and implementing data warehouse solutions, data pipelines, and data governance. I am a team player and I am always eager to learn new technologies and methodologies. I am also a good communicator and I have experience in working with business stakeholders to understand their requirements and translate them into technical solutions. 
-    
+    My background lies in data engineering and architecture, where I have honed my skills in 
+    creating <mark>data warehouse</mark> solutions, managing <mark>data pipelines</mark>, and 
+    implementing data governance. Teamwork and continuous learning are values that resonate 
+    with me, allowing me to adapt to new technologies and methodologies. Effective communication 
+    is one of my key strengths, enabling successful collaboration with business stakeholders to 
+    translate their requirements into technical solutions. This combination of expertise in data 
+    management and strong communication abilities positions me well for roles such as Data Engineer, 
+    Data Architect, or Data Scientist. Additionally, my passion for data and technology fuels
+    my drive to remain current in the field. 
+
 #  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 #
 #  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
@@ -96,7 +104,9 @@ content:
       quote: >
         Optimising and modernising the data warehouse and data pipelines
       description: | # this will include new lines to allow paragraphs
-        While keeping the legacy data warehouse running, I developed and implemented a modern data warehouse in Microsoft SQL Server. I also improved existing Data Vault models and developed data pipelines to extract, transform and load data from various sources into the new data warehouse.  
+        While keeping the legacy data warehouse running, I developed and implemented a modern data warehouse
+        in Microsoft SQL Server. I also improved existing <mark>Data Vault</mark> models and developed data 
+        pipelines to extract, transform and load data from various sources into the new data warehouse.  
       
     - layout: left
       border: weak  # Value of `weak` will display a weak border below this item. # Any 
@@ -105,51 +115,97 @@ content:
       quote: >
         Optimizing the manufacturing reporting process
       description: | # this will include new lines to allow paragraphs
-        In this project I developed and collaboratively designed data vault model of the manufacturing process to optimize the reporting process. Furthermore I developed data pipelines to extract, transform and load data from legacy data warehouse into Azure SQL Server while taking advantage of Cloud-based Modern dataOps mechanisms. 
+        In this project I developed and collaboratively designed data vault model of the manufacturing 
+        process to optimize the reporting process. Furthermore I developed data pipelines to extract, 
+        transform and load data from legacy data warehouse into Azure SQL Server while taking advantage 
+        of Cloud-based Modern dataOps mechanisms. 
     - layout: left
       border: weak
       title: Steel manufacturer
       quote: >
         Data catalog and data governance of business analytics and industrial data
       description: | # this will include new lines to allow paragraphs
-        Communicated with business stakeholders to understand the data governance requirements. Implemented Microsoft Purview to catalog the data sources and data assets of the company. While implementing a wide range of cataloging and data governance features, I also maintained security requirements and data privacy regulations. 
+        Communicated with business stakeholders to understand the data governance requirements. 
+        Implemented Microsoft Purview to catalog the data sources and data assets of the company. 
+        While implementing a wide range of cataloging and data governance features, I also 
+        maintained security requirements and data privacy regulations. 
   - title: Experience
     layout: list
     content:
       - layout: right
+        border: weak
         title: Lease Deal it
         sub_title: Senior Consultant
         caption: December 2023 - present
         link: https://www.leasedealit.fi
         quote: >
-          Lease deal it is a house of experts in the field of Information technology and business intelligence.
+          Lease deal it is a house of experts in the field of Information technology and business intelligence
         description: | # this will include new lines to allow paragraphs
-          As a senior consultant, Iam responsible for communicating, understanding client needs and implementing data warehouse solutions. 
+          As a senior consultant, I am accountable for effectively communicating with clients to 
+          understand their requirements and implementing customized data warehouse solutions. 
+          My role encompasses the design and implementation of data pipelines, including building 
+          <mark>SQL procedures</mark>, resolving issues discovered within existing data pipelines, engaging in 
+          discussions on data modeling, and optimizing existing data pipelines for improved efficiency.
       - layout: right
         title: Solita Oy
+        border: weak
         sub_title: Data Engineer
         caption: April 2022 - December 2023
         link: https://www.solita.fi
         quote: >
-          IT consulting company with a strong focus on data and analytics.
+          IT consulting company with a focus on data and analytics
         description: | # this will include new lines to allow paragraphs
-          As a data engineer, I have been responsible for developing and implementing data pipelines as well as data governance solutions.       
+          In my role as a Data Engineer, I take pride in solving complex problems and have gained 
+          experience in data modeling as well as developing data pipelines using both AWS and 
+          Microsoft Azure platforms. I have employed Agile development methodologies to build 
+          robust and resilient data pipelines that adhere to DevOps best practices. My proficiency 
+          includes working with various tools, frameworks, and methods such as <mark>Azure DevOps</mark>, 
+          Datalake, Data Vault, Databricks DE/MLops, Snowflake, <mark>AWS/Azure CLI</mark>, AWS Lambda/RDS/S3/Glue, 
+          AWS/Azure datalake, and MS Purview. I have hands-on experience with Azure Data Factory 
+          to optimize existing data pipelines and improve overall efficiency.       
+      - layout: right
+        title: Kanava.to
+        border: weak
+        sub_title: Full Stack Developer
+        caption: May 2021 - Mar 2022
+        link: https://www.kanava.to
+        quote: >
+          Marketing and advertising company with a focus on digital media and application development
+        description: | # this will include new lines to allow paragraphs
+          I successfully built eCommerce applications and incorporated business
+          intelligence features through proficiency in various programming languages 
+          such as nodeJs, VueJs, and PHP, as well as databases like MySQL and PostgreSQL. 
+          In this role, I am responsible for reporting progress to stakeholders, 
+          engaging in development discussions and planning, facilitating database migration, 
+          and executing web application renovations.
+      - layout: right
+        title: Centria University of Applied Sciences
+        sub_title: R&D Engineer
+        caption: Aug 2017 - Dec 2020
+        link: https://www.centria.fi
+        quote: >
+          Higher education institution with focus on research and development
+        description: | # this will include new lines to allow paragraphs
+          I developed numerous automation tools and prepared quality data along with analytical reports that contributed to significant managerial decisions. I was granted the opportunity to share my learnings in business intelligence and ERP solutions like SAP BW/4HANA, SAP S/4HANA, and Analytical applications such as SAP Analytics Cloud with Bachelor's and Master's degree students. In this capacity, I practiced team coaching, tech-leadership, working extensively with <mark>SAP BW/4HANA</mark>, SAP S/4HANA, <mark>SAP Analytics Cloud</mark>, SAP Smart data integration, and employed Python and shell scripting for efficient problem-solving.
   - title: Education
     layout: list
     content:
       - layout: top-right
+        border: weak
         title: Åbo Akademi
         sub_title: Master of Computer Science
         caption: 2024
         quote: >
-          Data science and machine learning
+          With a focus on data science and machine learning, I wrote my thesis on
+          Automated <mark>knowledge extraction</mark> from text using LLMs.
         description: | # this will include new lines to allow paragraphs
         
-      - title: Centria University of Applied Sciences
+      - layout: top-right
+        title: Centria University of Applied Sciences
         sub_title: Bachelor of Information Technology
         caption: 2019
         quote: >
-          Software development
+          I learned principles of software development and application engineering. I began to shift towards data engineering along the way and focused on writing my thesis about <mark>data integration</mark> in data warehousing and business intelligence applications. 
         description:
   
   # - title: A Little More About Me
