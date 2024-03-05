@@ -1,13 +1,13 @@
 # Site
 repository: alibitarafan/alibitarafa.github.io
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
 
 # Content configuration version
 version: 2
 
 # Personal info
 name: Ali Bitarafan
-title: Data Architect
+title: Data Engineer
 email: ali.bitarafan@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -98,9 +98,9 @@ content:
     - layout: left
       border: weak  # Value of `weak` will display a weak border below this item. # Any 
                     # other value (or no value) means no border will be displayed
-      title: Tilastokeskus
-      link: https://www.tilastokeskus.fi
-      link_text: Tilastokeskus
+      title: Governmental Organisation
+      # link: 
+      # link_text: 
       quote: >
         Optimising and modernising the data warehouse and data pipelines
       description: | # this will include new lines to allow paragraphs
@@ -128,7 +128,19 @@ content:
         Communicated with business stakeholders to understand the data governance requirements. 
         Implemented Microsoft Purview to catalog the data sources and data assets of the company. 
         While implementing a wide range of cataloging and data governance features, I also 
-        maintained security requirements and data privacy regulations. 
+        maintained security requirements and data privacy regulations.
+
+    - layout: left
+      border: weak
+      title: Pharmceutical
+      quote: >
+        Data migration from on premise  to Cloud
+      description: | # this will include new lines to allow paragraphs
+        I was responsible for Data migration strategy and execution part of which included carrying
+        out AWS RDS Oracle procedure design and execution. I managed to migrate multiple partitions and 
+        tables in respect to database version changes. During this project I took advantage AWS Glue and
+        Athena to explore migrated loads and AWS CDK to deploy CI/CD pipelines.
+
   - title: Experience
     layout: list
     content:

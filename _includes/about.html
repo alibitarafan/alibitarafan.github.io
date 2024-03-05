@@ -11,4 +11,13 @@
       {{ site.about_content | strip | markdownify }}
     </div>
   </div>
+  <div class="additional-links">
+    {%- for link in site.additional_links -%}
+    <a href="{{ link.url }}" class="button button--sacnite button--round-l">
+      <i class="{{ link.icon }}" title="{{ link.title | escape }}">
+        <img src="{{ link.image }}" class="icon" alt="{{ link.title | escape }}" title="{{ link.title | escape }}">
+      </i>
+    </a>
+    {%- endfor -%}
+  </div>
 </div>
