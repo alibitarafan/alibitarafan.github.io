@@ -98,6 +98,17 @@ content:
     - layout: left
       border: weak  # Value of `weak` will display a weak border below this item. # Any 
                     # other value (or no value) means no border will be displayed
+      title: Konoike Transport
+      # link: 
+      # link_text: 
+      quote: >
+        Logistics process automation
+      description: | # this will include new lines to allow paragraphs
+        In this project, I was responsible for identifying and optimizing data processing workloads for AI solutions. 
+        I designed and implemented AWS services such as ECS, Aura Postgres and Data migration tasks using AWS DMS.
+    - layout: left
+      border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                    # other value (or no value) means no border will be displayed
       title: Governmental Organisation
       # link: 
       # link_text: 
@@ -146,9 +157,21 @@ content:
     content:
       - layout: right
         border: weak
+        title: Etteplan
+        sub_title: Senior data engineer
+        caption: February 2024 - Present
+        link: https://www.etteplan.com
+        quote: >
+          Etteplan is a global company that specializes in AI as well as other industrial engineering services
+        description: | # this will include new lines to allow paragraphs
+          As a senior data engineer, I am responsible for designing and implementing data workloads for AI solutions.
+          I have practiced data engineering best practices and have gained experience in data modeling, data pipelines, 
+          and data governance. I have worked on projects that involve logistic process automation, data science, and data analytics.
+      - layout: right
+        border: weak
         title: Lease Deal it
         sub_title: Senior Consultant
-        caption: December 2023 - present
+        caption: December 2023 - January 2024
         link: https://www.leasedealit.fi
         quote: >
           Lease deal it is a house of experts in the field of Information technology and business intelligence
