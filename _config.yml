@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Ali Bitarafan
-title: Senior Data Engineer
+title: Senior Data Engineer | Data Architect
 email: ali.bitarafan@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -104,7 +104,7 @@ content:
       quote: >
         Storage and Picking Optimization Project
       description: | # this will include new lines to allow paragraphs
-        In this project, I worked as tech lead to develop and implement two AI solutions with the aim of optimizing storage and picking processes. 
+        In this project, I worked as data architect and tech lead to communicate and lead implementation of two AI solutions with the aim of optimizing storage and picking processes. 
         This project involved working with business stakeholders to understand their requirements 
         and translate them into technical solutions.
     - layout: left
@@ -232,7 +232,7 @@ content:
         sub_title: Master of Computer Science
         caption: 2025
         quote: >
-          With a focus on data science and machine learning, I wrote my thesis on
+          With focus on AI and machine learning, My major was Data science and I wrote my thesis on
           Automated <mark>knowledge extraction</mark> from text using LLMs.
         description: | # this will include new lines to allow paragraphs
         
