@@ -60,8 +60,6 @@ additional_links:
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
 
-
-
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
@@ -78,7 +76,7 @@ about_content: | # this will include new lines to allow paragraphs
     with me, allowing me to adapt to new technologies and methodologies. Effective communication 
     is one of my key strengths, enabling successful collaboration with business stakeholders to 
     translate their requirements into technical solutions. This combination of expertise in data 
-    management and strong communication abilities positions me well for roles such as Data Engineering and  
+    management and strong communication abilities positions me well for roles such as Data Engineering and
     Data Architect. Additionally, my passion for data and technology fuels
     my drive to remain current in the field. 
 
