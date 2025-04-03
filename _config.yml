@@ -123,7 +123,8 @@ content:
       quopte: >
         Data warehouse, data pipeline and power bi dashboard design and development.
       description: |
-        During the course of this project I developed three layer data transformation from legacy warehouse system to Snowflake and eventually building comprehensive analytical dashboard.  
+        During the course of this project I developed three layer data transformation from legacy warehouse system to <mark>Snowflake</mark> and eventually building comprehensive analytical dashboard using <mark>power-bi</mark>.
+        The data transformation layers (landing, staging, prod) was implemented using databricks and project was maintained in <mark>azure-devops</mark>.  
     - layout: left
       border: weak  # Value of `weak` will display a weak border below this item. # Any 
                     # other value (or no value) means no border will be displayed
