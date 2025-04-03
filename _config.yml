@@ -72,13 +72,13 @@ about_profile_image: images/self-portrait.JPG
 about_content: | # this will include new lines to allow paragraphs
     My background lies in data engineering and architecture, where I have honed my skills in 
     creating <mark>data warehouse</mark> solutions, managing <mark>data pipelines</mark>, and 
-    implementing data governance. Teamwork and continuous learning are values that resonate 
-    with me, allowing me to adapt to new technologies and methodologies. Effective communication 
+    implementing machine learning and analytical workloads. 
+    I have used <mark>DBT</mark>, <mark>Databricks</mark>, <mark>Snowflake</mark> and various other tools.
+    Teamwork and continuous learning are values that resonate with me, allowing me to adapt to new technologies and methodologies. Effective communication 
     is one of my key strengths, enabling successful collaboration with business stakeholders to 
     translate their requirements into technical solutions. This combination of expertise in data 
     management and strong communication abilities positions me well for roles such as Data Engineering and
-    Data Architect. Additionally, my passion for data and technology fuels
-    my drive to remain current in the field. 
+    Data Architect. 
 
 #  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 #
@@ -117,7 +117,13 @@ content:
         While keeping the legacy data warehouse running, I developed and implemented a modern data warehouse
         in Microsoft SQL Server. I also improved existing <mark>Data Vault</mark> models and developed data 
         pipelines to extract, transform and load data from various sources into the new data warehouse.  
-      
+    - layout: left
+      border: weak
+      title: Finnish Forestery
+      quopte: >
+        Data warehouse, data pipeline and power bi dashboard design and development.
+      description: |
+        During the course of this project I developed three layer data transformation from legacy warehouse system to Snowflake and eventually building comprehensive analytical dashboard.  
     - layout: left
       border: weak  # Value of `weak` will display a weak border below this item. # Any 
                     # other value (or no value) means no border will be displayed
