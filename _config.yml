@@ -70,15 +70,17 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/self-portrait.JPG
 about_content: | # this will include new lines to allow paragraphs
-    My background lies in data engineering and architecture, where I have honed my skills in 
-    creating <mark>data warehouse</mark> solutions, managing <mark>data pipelines</mark>, and 
-    implementing machine learning and analytical workloads. 
-    I have used <mark>DBT</mark>, <mark>Databricks</mark>, <mark>Snowflake</mark> and various other tools.
-    Teamwork and continuous learning are values that resonate with me, allowing me to adapt to new technologies and methodologies. Effective communication 
-    is one of my key strengths, enabling successful collaboration with business stakeholders to 
-    translate their requirements into technical solutions. This combination of expertise in data 
-    management and strong communication abilities positions me well for roles such as Data Engineering and
-    Data Architect. 
+    My background lies in data engineering and architecture, where I spend my time 
+      designing and implementing <mark>data warehouse</mark> solutions, managing <mark>data pipelines</mark>, and 
+      implementing machine learning and analytical workloads. I have extensive experience with 
+      <mark>Hadoop</mark>, <mark>Apache Spark</mark>, and <mark>Kafka</mark>, which I have utilized to build 
+      scalable and efficient data processing systems. Additionally, I have worked with tools like 
+      <mark>DBT</mark>, <mark>Databricks</mark>, and <mark>Snowflake</mark> to deliver robust data solutions. 
+      Teamwork and continuous learning are values that resonate with me, allowing me to adapt to new technologies and methodologies. Effective communication 
+      is one of my key strengths, enabling successful collaboration with business stakeholders to 
+      translate their requirements into technical solutions. This combination of expertise in data 
+      management, big data technologies, and strong communication abilities positions me well for roles 
+      such as Data Engineering and Data Architect.
 
 #  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 #
@@ -102,9 +104,10 @@ content:
       quote: >
         Storage and Picking Optimization Project
       description: | # this will include new lines to allow paragraphs
-        In this project, I worked as data architect and tech lead to communicate and lead implementation of two AI solutions with the aim of optimizing storage and picking processes. 
-        This project involved working with business stakeholders to understand their requirements 
-        and translate them into technical solutions.
+        As a data architect and tech lead, I spearheaded the implementation of two AI solutions to optimize storage and picking processes. 
+        Leveraging my expertise in <mark>Apache Spark</mark>, I designed scalable data pipelines 
+        to process large datasets efficiently. Collaborated with business stakeholders to translate their requirements into technical solutions, 
+        ensuring seamless integration with existing systems.
     - layout: left
       border: weak  # Value of `weak` will display a weak border below this item. # Any 
                     # other value (or no value) means no border will be displayed
@@ -114,9 +117,9 @@ content:
       quote: >
         Optimising and modernising the data warehouse and data pipelines
       description: | # this will include new lines to allow paragraphs
-        While keeping the legacy data warehouse running, I developed and implemented a modern data warehouse
-        in Microsoft SQL Server. I also improved existing <mark>Data Vault</mark> models and developed data 
-        pipelines to extract, transform and load data from various sources into the new data warehouse.  
+        While maintaining the legacy data warehouse, I utilized <mark>Hadoop</mark> and <mark>Apache Spark</mark> to develop a modern data warehouse 
+        in Microsoft SQL Server. Improved <mark>Data Vault</mark> models and implemented robust data pipelines to extract, transform, and load data 
+        from diverse sources, ensuring high performance and scalability.  
     - layout: left
       border: weak
       title: Finnish Forestery
@@ -132,20 +135,18 @@ content:
       quote: >
         Optimizing the manufacturing reporting process
       description: | # this will include new lines to allow paragraphs
-        In this project I developed and collaboratively designed data vault model of the manufacturing 
-        process to optimize the reporting process. Furthermore I developed data pipelines to extract, 
-        transform and load data from legacy data warehouse into Azure SQL Server while taking advantage 
-        of Cloud-based Modern dataOps mechanisms. 
+        Developed a <mark>Data Vault</mark> model to optimize the reporting process for manufacturing data. Designed and implemented 
+        data pipelines using <mark>Kafka</mark> and <mark>Azure SQL Server</mark> to streamline data integration from legacy systems. 
+        Leveraged cloud-based modern DataOps mechanisms to ensure scalability and efficiency. 
     - layout: left
       border: weak
       title: Steel manufacturer
       quote: >
         Data catalog and data governance of business analytics and industrial data
       description: | # this will include new lines to allow paragraphs
-        Communicated with business stakeholders to understand the data governance requirements. 
-        Implemented Microsoft Purview to catalog the data sources and data assets of the company. 
-        While implementing a wide range of cataloging and data governance features, I also 
-        maintained security requirements and data privacy regulations.
+        Implemented <mark>Microsoft Purview</mark> to catalog and govern data assets, ensuring compliance with security and privacy regulations. 
+        Collaborated with stakeholders to define data governance requirements and utilized <mark>Hadoop</mark> and <mark>Kafka</mark> to manage 
+        large-scale industrial data efficiently.
 
     - layout: left
       border: weak
@@ -153,10 +154,9 @@ content:
       quote: >
         Data migration from on premise  to Cloud
       description: | # this will include new lines to allow paragraphs
-        I was responsible for Data migration strategy and execution part of which included carrying
-        out AWS RDS Oracle procedure design and execution. I managed to migrate multiple partitions and 
-        tables in respect to database version changes. During this project I took advantage AWS Glue and
-        Athena to explore migrated loads and AWS CDK to deploy CI/CD pipelines.
+        Led the data migration strategy and execution, including designing and implementing AWS RDS Oracle procedures. 
+        Utilized <mark>AWS Glue</mark> and <mark>Athena</mark> for data exploration and validation, and deployed CI/CD pipelines using <mark>AWS CDK</mark>. 
+        Ensured seamless migration of large datasets while maintaining data integrity and performance.
 
   - title: Experience
     layout: list
