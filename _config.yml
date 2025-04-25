@@ -98,7 +98,9 @@ content:
     - layout: left
       border: weak  # Value of `weak` will display a weak border below this item. # Any 
                     # other value (or no value) means no border will be displayed
-      title: Konoike Transport
+      title: | 
+        Warehouse Optimization
+        AI solution - Storage and Picking
       # link: 
       # link_text: 
       quote: >
@@ -111,9 +113,11 @@ content:
     - layout: left
       border: weak  # Value of `weak` will display a weak border below this item. # Any 
                     # other value (or no value) means no border will be displayed
-      title: Governmental Organisation
-      # link: 
-      # link_text: 
+      title: |
+        Governmental Statistics
+        data pipeline and migration  
+      link: 
+      link_text: 
       quote: >
         Optimising and modernising the data warehouse and data pipelines
       description: | # this will include new lines to allow paragraphs
@@ -122,7 +126,9 @@ content:
         from diverse sources, ensuring high performance and scalability.  
     - layout: left
       border: weak
-      title: Finnish Forestery
+      title: |
+        Finnish Forestery 
+        safety analytics
       quopte: >
         Data warehouse, data pipeline and power bi dashboard design and development.
       description: |

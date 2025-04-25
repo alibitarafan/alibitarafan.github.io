@@ -1,5 +1,5 @@
 <div class="container projects-container">
-  <h6 id="{{ site.projects_title | slugify | default: 'projects'}}">{{ site.projects_title | default: "Projects" }}</h6>
+  <h5 id="{{ site.projects_title | slugify | default: 'projects'}}">{{ site.projects_title | default: "Projects" }}</h5>
   {% for project in site.data.projects %}
     {% include {{ project.layout | default: 'left' | append: ".html" | prepend: "v1/" }} item=project %}
   {% endfor %}
