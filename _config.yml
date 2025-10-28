@@ -7,15 +7,10 @@ version: 2
 
 # Personal info
 name: Ali Bitarafan
-title: Senior Data Engineer | Data Architect
+title: Data Architect | Tech lead
 email: ali.bitarafan@gmail.com
-# email_title: Email (Email title override)
-# phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-# website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
 
-# Dark Mode (true/false/never)
+
 darkmode: false
 
 # Social links
@@ -53,6 +48,7 @@ additional_links:
   - title: AWS Certified Solutions Architect - associate
     url: https://cp.certmetrics.com/amazon/en/public/verify/credential/9BCLZX7KW2RE1NKH
     image: /images/AWS-Solutions-Architect-Associate_badge.png
+
 # - title: Link name
 #   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -70,7 +66,7 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/self-portrait.JPG
 about_content: | # this will include new lines to allow paragraphs
-    My background lies in data engineering and architecture, where I spend my time 
+    I spend my time 
       designing and implementing <mark>data warehouse</mark> solutions, managing <mark>data pipelines</mark>, and 
       implementing machine learning and analytical workloads. I have extensive experience with 
       <mark>Hadoop</mark>, <mark>Apache Spark</mark>, and <mark>Kafka</mark>, which I have utilized to build 
@@ -99,7 +95,7 @@ content:
       border: weak  # Value of `weak` will display a weak border below this item. # Any 
                     # other value (or no value) means no border will be displayed
       title: | 
-        Warehouse Optimization
+        Frozed goods Warehouse Optimization (KONOIKE)
         AI solution - Storage and Picking
       # link: 
       # link_text: 
@@ -114,8 +110,8 @@ content:
       border: weak  # Value of `weak` will display a weak border below this item. # Any 
                     # other value (or no value) means no border will be displayed
       title: |
-        Governmental Statistics
-        data pipeline and migration  
+        Population Statistics
+        data warehouse and pipeline desing  
       link: 
       link_text: 
       quote: >
@@ -158,7 +154,7 @@ content:
       border: weak
       title: Pharmceutical
       quote: >
-        Data migration from on premise  to Cloud
+        Data migration - on premise to Cloud
       description: | # this will include new lines to allow paragraphs
         Led the data migration strategy and execution, including designing and implementing AWS RDS Oracle procedures. 
         Utilized <mark>AWS Glue</mark> and <mark>Athena</mark> for data exploration and validation, and deployed CI/CD pipelines using <mark>AWS CDK</mark>. 
@@ -176,9 +172,9 @@ content:
         quote: >
           Etteplan is a global company that specializes in AI as well as other industrial engineering services
         description: | # this will include new lines to allow paragraphs
-          As a senior data engineer, I am responsible for designing and implementing data workloads for AI solutions.
-          I have practiced data engineering best practices and have gained experience in data modeling, data pipelines, 
-          and data governance. I have worked on projects that involve logistic process automation, data science, and data analytics.
+          As a senior data engineer, I lead design and implementation of data workloads for AI solutions.
+          using best practices in data modeling, data pipelines development operations 
+          as well as data governance. I have worked on process automation with the goal of enabling automated data science, and data analytics jobs.
       - layout: right
         border: weak
         title: Lease Deal it
@@ -188,11 +184,11 @@ content:
         quote: >
           Lease deal it is a house of experts in the field of Information technology and business intelligence
         description: | # this will include new lines to allow paragraphs
-          As a senior consultant, I am accountable for effectively communicating with clients to 
-          understand their requirements and implementing customized data warehouse solutions. 
-          My role encompasses the design and implementation of data pipelines, including building 
-          <mark>SQL procedures</mark>, resolving issues discovered within existing data pipelines, engaging in 
-          discussions on data modeling, and optimizing existing data pipelines for improved efficiency.
+          I was accountable for effectively communicating with clients to help them 
+          draw project requirements and implement customized data warehouse solutions. 
+          I applied the discussions in design and implementation of data pipelines. In practice this resulted in
+          <mark>SQL procedures</mark>, resolving issues discovered within existing data pipelines, enhancing and updating existing data models,
+          and optimizing existing data pipelines for improved efficiency.
       - layout: right
         title: Solita Oy
         border: weak
@@ -202,14 +198,10 @@ content:
         quote: >
           IT consulting company with a focus on data and analytics
         description: | # this will include new lines to allow paragraphs
-          In my role as a Data Engineer, I take pride in solving complex problems and have gained 
-          experience in data modeling as well as developing data pipelines using both AWS and 
-          Microsoft Azure platforms. I have employed Agile development methodologies to build 
-          robust and resilient data pipelines that adhere to DevOps best practices. My proficiency 
-          includes working with various tools, frameworks, and methods such as <mark>Azure DevOps</mark>, 
+          In my role as a Data Engineer, I developed pipelines and data warehouse solutions in both AWS and 
+          Microsoft Azure platforms. Some of the tools I worked with were <mark>Azure DevOps</mark>, 
           Datalake, Data Vault, Databricks DE/MLops, Snowflake, <mark>AWS/Azure CLI</mark>, AWS Lambda/RDS/S3/Glue, 
-          AWS/Azure datalake, and MS Purview. I have hands-on experience with Azure Data Factory 
-          to optimize existing data pipelines and improve overall efficiency.       
+          AWS/Azure datalake, and MS Purview.       
       - layout: right
         title: Kanava.to
         border: weak
@@ -219,7 +211,7 @@ content:
         quote: >
           Marketing and advertising company with a focus on digital media and application development
         description: | # this will include new lines to allow paragraphs
-          I successfully built eCommerce applications and incorporated business
+          I was part a small team focusing on building eCommerce applications and incorporated business
           intelligence features through proficiency in various programming languages 
           such as nodeJs, VueJs, and PHP, as well as databases like MySQL and PostgreSQL. 
           In this role, I am responsible for reporting progress to stakeholders, 
@@ -244,7 +236,7 @@ content:
         caption: 2025
         quote: >
           With focus on AI and machine learning, My major was Data science and I wrote my thesis on
-          Automated <mark>knowledge extraction</mark> from text using LLMs.
+          Automated <mark>knowledge extraction</mark> from text using Foundational Langugae models run locally on an average commercial computer.
         description: | # this will include new lines to allow paragraphs
         
       - layout: top-right
